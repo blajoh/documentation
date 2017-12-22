@@ -55,7 +55,12 @@ We did not work with dynamic analysis, because the performance on mobile devices
 #### Obfuscation
 If the malware is being obfuscated then the decompilation would face problems, because countering obfuscation requires a whole new project and was not further included in these methods
 
-Literature
+Namesake
+---
+Our repository heavily revolves around the infamous [DREBIN](https://www.tu-braunschweig.de/Medien-DB/sec/pubs/2014-ndss.pdf) paper, which shares the name with a beloved Leslie Nielsen character from the filmseries "The Naked Gun". The movie lives off of slapstick and puns, much like we do.
+
+
+References
 ---
 [Arp, Daniel & Spreitzenbarth, Michael & Hübner, Malte & Gascon, Hugo & Rieck, Konrad. (2014). DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket.](https://www.tu-braunschweig.de/Medien-DB/sec/pubs/2014-ndss.pdf)
 
