@@ -47,6 +47,7 @@ We have been able to use a university server with 136GB RAM and ran our program 
 
 ### Original DREBIN data set
 The original data set is available [here](https://www.sec.cs.tu-bs.de/~danarp/drebin/index.html) under the conditions mentioned on the website. The feature list, that they used is also available there.
+There are no results for the artificial neural network yet, because we do not have the necessary computing power for it. Soon though, soon...
 
 Method | tpr(%) | fpr(%)
 --- | --- | ---
@@ -77,6 +78,12 @@ We did not work with dynamic analysis, because the performance on mobile devices
 
 #### Obfuscation
 If the malware is being obfuscated then the decompilation would face problems, because countering obfuscation requires a whole new project and was not further included in these methods
+
+#### Entropy/Randomness
+We tried to detect and measure randomness of strings inside the code, but it turned out, that most urls would appear random and this would sharply increase the false positive rate. This method would require a list of known bad urls.
+
+#### Semantic Analysis
+This type of analysis is used to approximate concepts through structures build from a large set of information. This is out of scope.
 
 Namesake
 ---
