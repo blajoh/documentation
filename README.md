@@ -63,9 +63,9 @@ SVM | |
 Log. Regression | |
 ANN | |
 
-tpr...true positive rate--
-fpr...false positive rate--
-SVM...Support Vector Machine--
+tpr...true positive rate⋅⋅
+fpr...false positive rate⋅⋅
+SVM...Support Vector Machine⋅⋅
 ANN...Artificial Neural Network
 
 Out of Scope
