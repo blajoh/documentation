@@ -25,10 +25,10 @@ In order to supply the learning algorithms with data, we have to extract the spe
 
 As already mentioned, the first step in this section is the reproduction of the program that extracts the features from an APK used in the DREBIN paper. Afterwards, the goal is to improve the existing feature extraction and look for new features. Interesting properties of an apk may be:
 
-..* Requested permissions
-..* URLs used for communication
-..* Method calls
-..* Activity names
+* Requested permissions
+* URLs used for communication
+* Method calls
+* Activity names
 etc...
 
 An APK is basically a .zip file, which contains many other files, some are mandatory and some are optional. Luckily, we already have a list of APK features, which are known from the DREBIN paper to give sufficient information for the learning algorithms. The main sources of information are the Mainfest.xml (containing metadata about the app) and the classes.dex files. The .dex file contains compiled code, which must be decompiled in order to analyze it.
