@@ -55,3 +55,15 @@ We did not work with dynamic analysis, because the performance on mobile devices
 #### Obfuscation
 If the malware is being obfuscated then the decompilation would face problems, because countering obfuscation requires a whole new project and was not further included in these methods
 
+Literature
+---
+[Arp, Daniel & Spreitzenbarth, Michael & Hübner, Malte & Gascon, Hugo & Rieck, Konrad. (2014). DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket.](https://www.tu-braunschweig.de/Medien-DB/sec/pubs/2014-ndss.pdf)
+
+[Martín García, Alejandro & Menéndez, Héctor & Camacho, David. (2017). String-based Malware Detection for Android Environments.](https://www.researchgate.net/publication/308941437_String-based_Malware_Detection_for_Android_Environments)
+
+[Ambra Demontis, Marco Melis, Battista Biggio, Davide Maiorca, Daniel Arp, Konrad Rieck, Igino Corona, Giorgio Giacinto, Fabio Roli. (2017). Yes, Machine Learning Can Be More Secure! A Case Study on Android Malware Detection.](https://arxiv.org/pdf/1704.08996.pdf)
+
+[Feng, Yu & Anand, Saswat & Aiken, Alex & Dillig, Isil, (2014), Apposcopy: Semantics-Based Detection of Android Malware through Static Analysis](https://www.cs.utexas.edu/~isil/fse14.pdf)
+
+[Batyuk, Leonid & Herpich, Markus & Camtepe, Seyit & Raddatz, Karsten & Schmidt, Aubrey-Derrick & Albayrak, Sahin, (2011), Using Static Analysis for Automatic Assessment and Mitigation of Unwanted and Malicious Activities Within Android Applications](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.388.4511&rep=rep1&type=pdf)
+
