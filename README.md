@@ -37,5 +37,21 @@ The new training data especially will be important to test the effectiveness of 
 
 [Here is the repository about how the malware detection is installed and how to use it](https://github.com/33onethird/malware-test)
 
+A website, where you can test an APK for malware was also planned.
+
 Results
 ---
+We have been able to use a university server with 136GB RAM and ran our program through with varying results:
+
+### Original DREBIN data set
+
+### New data set (IKARUS, Exodus, f-droid)
+
+Out of Scope
+---
+#### Dynamic Analysis
+We did not work with dynamic analysis, because the performance on mobile devices would decrease massively. We work exclusively with static analysis
+
+#### Obfuscation
+If the malware is being obfuscated then the decompilation would face problems, because countering obfuscation requires a whole new project and was not further included in these methods
+
