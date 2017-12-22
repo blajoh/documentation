@@ -18,7 +18,7 @@ As already mentioned, the first step in this section is the reproduction of the 
 * Requested permissions
 * URLs used for communication
 * Method calls
-* Activity names
+* Activity names  
 etc...
 
 An APK is basically a .zip file, which contains many other files, some are mandatory and some are optional. Luckily, we already have a list of APK features, which are known from the DREBIN paper to give sufficient information for the learning algorithms. The main sources of information are the Mainfest.xml (containing metadata about the app) and the classes.dex files. The .dex file contains compiled code, which must be decompiled in order to analyze it.
@@ -46,15 +46,18 @@ Results
 We have been able to use a university server with 136GB RAM and ran our program through with varying results:
 
 ### Original DREBIN data set
+The original data set is available [here](https://www.sec.cs.tu-bs.de/~danarp/drebin/index.html) under the conditions mentioned on the website. The feature list, that they used is also available there.
+There are no results for the artificial neural network yet, because we do not have the necessary computing power for it. Soon though, soon...
 
 Method | tpr(%) | fpr(%)
 --- | --- | ---
 Random Forest | 95 | 0.6
-SVM | |
-Log. Regression | |
+SVM | 89 | 0.5
+Linear Regression | 84 | 0.6
 ANN | |
 
-### New data set (IKARUS, Exodus, f-droid)
+### New data set (IKARUS)
+We had many options when it comes to new data sets. Some companies got interested in our project and offered us big data. The one we settled on was IKARUS. Their data set included benign-,mal- and adware, but we decided to treat adware like malware in the sense of it being unwanted. There are no results for the new data set yet, owing to corrupted APKs inside. This stopped the decompiling process, which is why we included a 30 seconds timer to ignore faulty APKs. However, The machine learning with the new data is continuously running right know and we are expecting the results to follow soon.
 
 Method | tpr(%) | fpr(%)
 --- | --- | ---
@@ -75,6 +78,12 @@ We did not work with dynamic analysis, because the performance on mobile devices
 
 #### Obfuscation
 If the malware is being obfuscated then the decompilation would face problems, because countering obfuscation requires a whole new project and was not further included in these methods
+
+#### Entropy/Randomness
+We tried to detect and measure randomness of strings inside the code, but it turned out, that most urls would appear random and this would sharply increase the false positive rate. This method would require a list of known bad urls.
+
+#### Semantic Analysis
+This type of analysis is used to approximate concepts through structures build from a large set of information. This is out of scope.
 
 Namesake
 ---
