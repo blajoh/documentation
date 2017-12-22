@@ -57,7 +57,7 @@ If the malware is being obfuscated then the decompilation would face problems, b
 
 Namesake
 ---
-Our repository heavily revolves around the infamous [DREBIN](https://www.tu-braunschweig.de/Medien-DB/sec/pubs/2014-ndss.pdf) paper, which shares the name with a beloved Leslie Nielsen character from the filmseries "The Naked Gun". The movie lives off of slapstick and puns, much like we do.
+Our organization heavily revolves around the infamous [DREBIN](https://www.tu-braunschweig.de/Medien-DB/sec/pubs/2014-ndss.pdf) paper, which shares the name with a beloved Leslie Nielsen character from the filmseries "The Naked Gun". The movie lives off of slapstick and puns, much like we do.
 
 
 References
