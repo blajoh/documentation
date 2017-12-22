@@ -43,9 +43,9 @@ Results
 ---
 We have been able to use a university server with 136GB RAM and ran our program through with varying results:
 
-### * Original DREBIN data set
+### Original DREBIN data set
 
-### * New data set (IKARUS, Exodus, f-droid)
+### New data set (IKARUS, Exodus, f-droid)
 
 Out of Scope
 ---
