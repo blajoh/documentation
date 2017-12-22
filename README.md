@@ -46,21 +46,23 @@ Results
 We have been able to use a university server with 136GB RAM and ran our program through with varying results:
 
 ### Original DREBIN data set
+The original data set is available [here](https://www.sec.cs.tu-bs.de/~danarp/drebin/index.html) under the conditions mentioned on the website. The feature list, that they used is also available there.
 
 Method | tpr(%) | fpr(%)
 --- | --- | ---
 Random Forest | 95 | 0.6
-SVM | |
-Log. Regression | |
+SVM | 89 | 0.5
+Linear Regression | 84 | 0.6
 ANN | |
 
 ### New data set (IKARUS, Exodus, f-droid)
+We had many options when it comes to new data sets. Some companies got interested in our project and offered us big data. The one we settled on was IKARUS. Their data set included benign-,mal- and adware, but we decided to treat adware like malware in the sense of it being unwanted. There are no results for the new data set yet, owing to corrupted APKs inside. This stopped the decompiling process, which is why we included a 30 seconds timer to ignore faulty APKs. However, The machine learning with the new data is continuously running right know and we are expecting the results to follow soon.
 
 Method | tpr(%) | fpr(%)
 --- | --- | ---
 Random Forest |  | 
 SVM | |
-Log. Regression | |
+Linear Regression | |
 ANN | |
 
 tpr...true positive rate  
