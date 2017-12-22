@@ -102,7 +102,7 @@ References
 
 Other similar works on GitHub.com
 ---
-[https://github.com/MLDroid/drebin](https://github.com/MLDroid/drebin)
-[https://github.com/sontung/drebin-malwares](https://github.com/sontung/drebin-malwares)
+[https://github.com/MLDroid/drebin](https://github.com/MLDroid/drebin)  
+[https://github.com/sontung/drebin-malwares](https://github.com/sontung/drebin-malwares)  
 
 
