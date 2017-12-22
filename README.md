@@ -39,7 +39,7 @@ The new training data especially will be important to test the effectiveness of 
 
 [Here is the repository about how the malware detection is installed and how to use it](https://github.com/33onethird/malware-test)
 
-A website, where you can test an APK for malware was also planned.
+A website, where you can test an APK for malware was also planned. We will use a Random Forest for the website, because of the superior results, which look as follows
 
 Results
 ---
@@ -100,5 +100,9 @@ References
 
 [Feng, Yu & Anand, Saswat & Aiken, Alex & Dillig, Isil, (2014), Apposcopy: Semantics-Based Detection of Android Malware through Static Analysis](https://www.cs.utexas.edu/~isil/fse14.pdf)
 
-[Batyuk, Leonid & Herpich, Markus & Camtepe, Seyit & Raddatz, Karsten & Schmidt, Aubrey-Derrick & Albayrak, Sahin, (2011), Using Static Analysis for Automatic Assessment and Mitigation of Unwanted and Malicious Activities Within Android Applications](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.388.4511&rep=rep1&type=pdf)
+Other similar works on GitHub.com
+---
+[https://github.com/MLDroid/drebin](https://github.com/MLDroid/drebin)
+[https://github.com/sontung/drebin-malwares](https://github.com/sontung/drebin-malwares)
+
 
