@@ -47,7 +47,21 @@ We have been able to use a university server with 136GB RAM and ran our program 
 
 ### Original DREBIN data set
 
+Method | tpr(%) | fpr(%)
+--- | --- | ---
+Random Forest | 95 | 0.6
+SVM | |
+Log. Regression | |
+ANN | |
+
 ### New data set (IKARUS, Exodus, f-droid)
+
+Method | tpr(%) | fpr(%)
+--- | --- | ---
+Random Forest |  | 
+SVM | |
+Log. Regression | |
+ANN | |
 
 Out of Scope
 ---
